@@ -2,6 +2,16 @@
 
 This documents contains some of the basic commands that you will need to get started with Git and GitHub
 
+# Contents
+1. [Basic Commands 1](#basic-commands-1)
+2. [Basic Commands 2](#basic-commands-2)
+3. [Basic Commands 3](#basic-commands-3)
+4. [Activity 1](#activity-1)
+5. [Activity 2](#activity-2)
+6. [Activity 3](#activity-3)
+7. [Activity 4](#activity-4)
+8. [Danger Commands](#danger-commands)
+
 # Basic Commands 1
 
 1. Initialize a repository *Run this **ONLY ONCE***: 
@@ -83,14 +93,12 @@ Create a file called .gitignore in the root
 # Danger Commands
 
 1. Undo latest commit (Only local): 
-
 ```git revert HEAD```
 
 2. Destroy all exisiting changes: 
-
 ```git checkout .```
 
-3. Stash: Keep temprary copy of current changes without a commit
+3. **Stash:** Keep temprary copy of current changes without a commit
     * Stash current changes: ```git stash```
     * Pop lastest stash: ```git stash pop```
     * List all stashes: ```git stash show```
