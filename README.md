@@ -1,1 +1,97 @@
-intro-to-git-and-github
+# Introduction to Git
+
+This documents contains some of the basic commands that you will need to get started with Git and GitHub
+
+# Basic Commands 1
+
+1. Initialize a repository *Run this **ONLY ONCE***: 
+```git init```
+
+2. Check the status of the repository: 
+```git status```
+
+3. Add file(s) to the staging area
+    * For individual files: ```git add <filename>``` 
+    * For all files: ```git add .```
+
+4. Commit changes (Take a screenshot of code): 
+```git commit -m "Initial Commit"```
+
+5. List out all the commits: 
+```git log```
+
+6. Check the difference between file changes: 
+```git diff```
+
+7. List out all the branches: 
+```git branch```
+
+8. Create a new branch: 
+```git branch <branch_name>```
+
+9. Merge other branches with master branch: 
+```git merge master <branch_to_be_merged>```
+
+# Activity 1
+
+1. Create a new branch
+2. Add two commits in that branch
+3. Merge with master
+
+# Basic Commands 2
+
+1. List out all the remotes: ```git remote```
+2. Add remote to current repository: 
+```git remote add <remote name> <github link>```
+3. Long list remotes:
+```git remote -v```
+4. Push local to changes to master branch of origin remote: ```git push -u origin master```
+
+# Activity 2
+
+1. Make a lot of changes in the master branch
+2. Add, commit, push 
+3. See the output on github
+
+# Activity 3
+
+Create a file called .gitignore in the root
+
+1. Use any existing node/react app
+2. Init, add, commit
+3. Ignore relevant files (Eg: Node modules)
+4. Push to github
+
+# Activity 4
+
+1. Find out the difference between (locally)
+    * clone from dctacademy
+    * clone from your account
+2. Use these tools to understand
+    * branch
+    * remote
+    * commits
+3. Create a new node/react app and push to github
+
+# Basic Commands 3
+
+1. Add an upstream remote: ```git remote add upstream ```<admin-repo-link> 
+
+2. Pull changes from the admin repo to your local repo: 
+```git pull upstream master```
+
+# Danger Commands
+
+1. Undo latest commit (Only local): 
+
+```git revert HEAD```
+
+2. Destroy all exisiting changes: 
+
+```git checkout .```
+
+3. Stash: Keep temprary copy of current changes without a commit
+    * Stash current changes: ```git stash```
+    * Pop lastest stash: ```git stash pop```
+    * List all stashes: ```git stash show```
+    * List stash with changes:```git stash show -p```
