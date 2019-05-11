@@ -11,6 +11,7 @@ This documents contains some of the basic commands that you will need to get sta
 6. [Activity 3](#activity-3)
 7. [Activity 4](#activity-4)
 8. [Danger Commands](#danger-commands)
+8. [Next Steps](#next-steps)
 
 # Basic Commands 1
 
@@ -103,3 +104,11 @@ Create a file called .gitignore in the root
     * Pop lastest stash: ```git stash pop```
     * List all stashes: ```git stash show```
     * List stash with changes:```git stash show -p```
+
+# Next Steps 
+
+[Advanced GitHub](https://github.com/dctacademy/advanced-github)
+
+# Advanced GitHub Overview
+
+![alt text](github.jpg)
