@@ -107,7 +107,7 @@ Create a file called .gitignore in the root
 
 # Next Steps 
 
-[Advanced GitHub](https://github.com/dctacademy/advanced-github)
+* Check out: [Advanced GitHub](https://github.com/dctacademy/advanced-github)
 
 # Advanced GitHub Overview
 
