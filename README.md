@@ -84,6 +84,23 @@ Create a file called .gitignore in the root
     * commits
 3. Create a new node/react app and push to github
 
+# Activity 5
+1. Create a new repo on github - sample-mern
+2. Create a new node app - local machine
+3. Create a new react app - local machine 
+4. Inside the node app, create a new folder called
+"client"
+5. Copy contents of the new react app into the client folder
+
+or
+
+- Run create-react-app in node app and call it 'client'
+6. Go inside the client folder and remove .git file
+(Command to remove .git: rm -rf .git)
+(For Windows: rmdir /a .git)
+7. Ignore relevant files in - node app - .gitignore should
+be at the root of node app
+
 # Basic Commands 3
 
 1. Add an upstream remote: ```git remote add upstream ```<admin-repo-link> 
