@@ -121,6 +121,29 @@ be at the root of node app
     * Pop lastest stash: ```git stash pop```
     * List all stashes: ```git stash show```
     * List stash with changes:```git stash show -p```
+    
+## GitHub CLI
+
+```gh``` is GitHub on the command line, and it’s now available in beta. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
+
+## Usage
+
+### Commands
+To view detail on any command, use gh [command] [subcommand] --help
+
+- gh issue [status, list, view, create]
+- gh pr [status, list, view, checkout, create]
+- gh repo [clone, create, fork, view]
+- gh config [get, set]
+- gh help
+
+### Global flags
+
+```
+      --help              Show help for command
+  -R, --repo OWNER/REPO   Select another repository using the OWNER/REPO format
+      --version           Show gh version
+```
 
 # Next Steps 
 
