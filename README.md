@@ -131,11 +131,11 @@ be at the root of node app
 ### Commands
 To view detail on any command, use gh [command] [subcommand] --help
 
-- gh issue [status, list, view, create]
-- gh pr [status, list, view, checkout, create]
-- gh repo [clone, create, fork, view]
-- gh config [get, set]
-- gh help
+- ```gh issue [status, list, view, create]```
+- ```gh pr [status, list, view, checkout, create]```
+- ```gh repo [clone, create, fork, view]```
+- ```gh config [get, set]```
+- ```gh help```
 
 ### Global flags
 
